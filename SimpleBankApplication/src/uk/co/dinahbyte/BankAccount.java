@@ -2,6 +2,18 @@ package uk.co.dinahbyte;
 
 public class BankAccount {
 	private int balance, previousTransaction;
+	public int getBalance() {
+		return balance;
+	}
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	public String getCustomerId() {
+		return customerId;
+	}
+
 	private String customerName, customerId;
 	private static int customerCounter = 0;
 	
@@ -57,5 +69,6 @@ public class BankAccount {
 			System.out.println("Withdrew " + previousTransaction);
 		}
 	}
+	
 	
 }
