@@ -2,6 +2,9 @@ package uk.co.dinahbyte;
 
 public class BankAccount {
 	private int balance, previousTransaction;
+	private String customerName, customerId;
+	private static int customerCounter = 0;
+
 	public int getBalance() {
 		return balance;
 	}
@@ -14,8 +17,6 @@ public class BankAccount {
 		return customerId;
 	}
 
-	private String customerName, customerId;
-	private static int customerCounter = 0;
 	
 	public BankAccount(String customerName, int initialBalance) {
 		this.customerName = customerName;
