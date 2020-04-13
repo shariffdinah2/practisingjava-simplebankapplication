@@ -1,5 +1,7 @@
 package uk.co.dinahbyte;
 
+// getting better understanding of Git
+// this comment is added online in github.com
 public class BankAccount {
 	private int balance, previousTransaction;
 	private String customerName, customerId;
